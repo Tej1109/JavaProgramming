@@ -12,4 +12,8 @@ public class Car {
         isRunning = false;
         System.out.println("You have stopped the engine!");
     }
+    @Override
+    public  String toString(){
+        return  this.make + " " + this.isRunning + " " + this.model + " " + this.year;
+    }
 }
